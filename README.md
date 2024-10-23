@@ -1,0 +1,1 @@
+Developing experimental scripts to be used to search for crypto wallets and send the information to a C2 server that would be set up. Still a work in progress and will be unleashed to the people of Wareville.
